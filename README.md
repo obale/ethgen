@@ -1,5 +1,7 @@
 # ethgen
 
+[![Build Status](https://travis-ci.org/obale/ethgen.svg?branch=master)](https://travis-ci.org/obale/ethgen)
+
 Tool that generates a Ethereum key pair. Run the following commands to install and run the command.
 
     ~$ go get github.com/obale/ethgen
