@@ -1,6 +1,6 @@
 # ethgen
 
-Tool that generates a Ethereum key pair. Run the following commands to install and run the command
+Tool that generates a Ethereum key pair. Run the following commands to install and run the command.
 
     ~$ go get github.com/obale/ethgen
     ~$ ${GOPATH}/bin/ethgen
