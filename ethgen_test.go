@@ -1,6 +1,7 @@
 package main
 
 import (
+	"os"
 	"regexp"
 	"testing"
 )
@@ -28,4 +29,8 @@ func TestGenerateAddress(t *testing.T) {
 	if len(privKey) != privKeyLength {
 		t.Errorf("private key is not valid, length is %d instead of %d", len(privKey), privKeyLength)
 	}
+}
+
+func TestMain(m *testing.M) {
+	os.Exit(m.Run())
 }
